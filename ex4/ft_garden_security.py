@@ -54,9 +54,9 @@ if __name__ == "__main__":
     print("Plant created: ", end="")
     rose.show()
 
-    rose.set_height(20)
+    rose.set_height(25)
     print(f"\nHeight updated: {rose.get_height():g}cm")
-    rose.set_age(12)
+    rose.set_age(30)
     print(f"Age updated: {rose.get_age()} days\n")
 
     rose.set_height(-5)

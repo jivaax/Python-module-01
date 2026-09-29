@@ -16,9 +16,9 @@ class Plant:
 
 if __name__ == "__main__":
     print("=== Garden Plant Growth ===")
-    start_height = 10
-    age_days = 10
-    growth_rate = 0.7
+    start_height = 25
+    age_days = 30
+    growth_rate = 0.8
     plant = Plant("Rose", start_height, age_days)
     plant.show()
     for i in range(7):
