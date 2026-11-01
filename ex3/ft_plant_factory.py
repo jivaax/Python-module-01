@@ -14,8 +14,7 @@ class Plant:
         self.days_old += 1
 
     def show(self) -> None:
-        print(f"Created: {self.name}: {self.height:.1f}cm,\
- {self.days_old} days old")
+        print(f"{self.name}: {self.height:.1f}cm, {self.days_old} days old")
 
 
 if __name__ == "__main__":
@@ -28,4 +27,5 @@ if __name__ == "__main__":
     plants = [plant1, plant2, plant3, plant4, plant5]
 
     for plant in plants:
+        print("Created: ", end="")
         plant.show()
